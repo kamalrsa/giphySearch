@@ -1,0 +1,43 @@
+#container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: cursive;
+  font-weight: bolder;
+}
+
+button {
+  padding: 2%;
+  font-family: monospace;
+  color: white;
+  background-color: rgb(11, 179, 142);
+  border-radius: 5%;
+  margin-bottom: 2.5%;
+}
+
+#giftype,
+#gifnum {
+  padding: 2%;
+  margin-bottom: 2.5%;
+  width: 25%;
+  outline-color: rgb(214, 176, 9);
+}
+
+#flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+#flex-container>div {
+  border: 1px ridge;
+  padding: 1%;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
